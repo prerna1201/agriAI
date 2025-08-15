@@ -1,0 +1,85 @@
+/* Village/farm theme */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to bottom, #a8e6a3, #4caf50);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Chat bubbles */
+p.user {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+p.bot {
+    background-color: #d0f0c0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    border: 1px solid #b2d8a1;
+}

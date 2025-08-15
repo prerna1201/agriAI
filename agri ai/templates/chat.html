@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Farming AI Chat</title>
+</head>
+<body>
+    <h2>Ask the Farming AI</h2>
+    <form action="/chat" method="post">
+        <input type="text" name="message" placeholder="Type your question..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if bot_reply %}
+        <p><strong>You:</strong> {{ user_message }}</p>
+        <p><strong>AI:</strong> {{ bot_reply }}</p>
+    {% endif %}
+</body>
+</html>
